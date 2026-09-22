@@ -1,4 +1,4 @@
 module.exports = {
-  bookRepository: require("./book.repository"),
+  BookRepository: require("./book.repository"),
   authorRepository: require("./author.repository"),
 };
