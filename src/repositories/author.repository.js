@@ -1,8 +1,8 @@
 class AuthorRepository {
-  async addBook(authorData) {}
-  async getAllBooks() {}
-  async getBook(id) {}
-  async deleteBook(id) {}
+  async addAuthor(authorData) {}
+  async getAllAuthors() {}
+  async getAuthor(id) {}
+  async deleteAuthor(id) {}
 }
 
 module.exports = AuthorRepository;
