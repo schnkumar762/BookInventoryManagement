@@ -1,14 +1,14 @@
 const express = require("express");
 const v1Router = require("./v1");
 
-const router = express.Router();
+const apiRouter = express.Router();
 
-router.use("/ping", (req, res) => {
+apiRouter.use("/ping", (req, res) => {
   res.json({
     message: "App router is working fine.",
   });
 });
 
-router.use("/v1", v1Router);
+apiRouter.use("/v1", v1Router);
 
-module.exports = router;
+module.exports = apiRouter;
