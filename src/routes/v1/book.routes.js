@@ -1,8 +1,8 @@
 const express = require("express");
 
-const router = express.Router();
+const bookRouter = express.Router();
 
-router.get("/", (req, res) => {
+bookRouter.get("/", (req, res) => {
   res.json({ message: "book route het hit" });
 });
-module.exports = router;
+module.exports = bookRouter;
