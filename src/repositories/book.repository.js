@@ -1,5 +1,5 @@
 class BookRepository {
-  async addBook(problemData) {}
+  async addBook(bookData) {}
   async getAllBooks() {}
   async getBook(id) {}
   async deleteBook(id) {}
